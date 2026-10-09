@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: #001;
+    display: flex;
+}
+.php{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.php h2{
+    font-size: 20px;
+     text-transform: capitalize;
+}
+.imgbox{
+    border: 3px solid rgb(255, 255, 255);
+    justify-content: space-around;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    flex-shrink:0;
+}
+.imgbox img{
+    flex-shrink:0;
+    width: 100%;
+}
+.menu{
+    background: #123;
+    width: 40px;
+    height: 100%;
+    padding: 20px;
+    overflow: hidden;
+    transition: .5s;
+}
+ul{
+    list-style: none;
+    position: relative;
+    height: 95%;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    align-items: center;
+    display: flex; 
+    gap: 50px;
+    transition: .5s;
+}
+ul li a:hover,.box:hover, table td:hover, .da:hover{
+    background: #ffffff55;
+}
+.log-out{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+.log-out a{
+    background-color: red;
+    width: 70%;
+}
+ul li a i{
+    color:  rgb(5, 206, 5);
+    font-size: 20px;
+
+}
+.menu:hover{
+      width: 260px;
+}
+.content{
+    width: 100%;
+    margin: 10px;
+}
+.da{
+    padding: 7px;
+    align-items: center;
+    display: flex;
+    background: rgb(5, 206, 5);
+    border-radius: 8px;
+    justify-content: space-between;
+    margin: 10px 0; 
+}
+.da a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.data{
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.box{
+    height: 150px;
+    background: #123;
+    flex-basis: 150px;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.data .box i{
+    font-size: 30px;
+
+}
+.data .box .dl{
+    text-align: center;
+    
+}
+.data .box .dl span{
+    font-size: 30px;
+}
+table{
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+    background: #123;
+    border-spacing: 5px;
+
+}
+table td{
+  
+    padding: 3px;
+    border-spacing: 5px;
+    border-radius: 8px;
+    border: solid white 1px;
+}
+th{
+    padding: 5px;
+    border-radius: 8px;
+    background: rgb(5, 206, 5);
+}
